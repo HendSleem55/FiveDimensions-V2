@@ -1,0 +1,74 @@
+#contact {
+    // background-color: #f7f7f7;
+    .contactUs{
+        form {
+            background-color: rgba($color: #000, $alpha: .6);
+            box-shadow: 0px 0px 5px 1px gray;
+            border-radius: 5px;
+
+            label{
+                color: white;
+            }
+        }
+
+
+        svg {
+            color: #2b2b2b;
+        }
+    }
+
+    .callUs {
+        p , a {
+            color: #4f4f4f;
+        }
+
+        a:hover {
+            color: $primaryColor
+        }
+    }
+}
+
+
+.activites{
+    a{
+        color: $primaryColor;
+    }
+
+    img{
+        width:150px;
+        height: 150px;
+    }
+    th{
+        text-align: center;
+    }
+
+    td {
+        vertical-align: middle;
+        text-align: center;
+    }
+
+
+    .activity{
+
+        p , h6 {
+            color: #4f4f4f; 
+            text-align: center;
+
+            svg {
+                color:#2b2b2b;
+            }
+            &:hover {
+                svg {
+                    color:$primaryColor;
+                }
+
+            }
+        }
+       
+        
+        background-color: #f7f7f7;
+        box-shadow: 2px 2px 3px gray;
+        border-radius: 5px;
+
+    }
+}

@@ -1,0 +1,112 @@
+	.carousel-item .card , .event section{
+		background-color: #f7f7f7;
+	}
+
+	.event:hover {
+		cursor: pointer
+	}
+
+	.event p {
+		margin-bottom: 0;
+	}
+
+
+	.newsTitle  , .eventsTitle {
+		background-color:$primaryColor;
+		color: white;
+
+	}
+
+
+	.buyBook{
+		@include background('../imgs/unsplash2.jpg');
+		background-position:center;
+		text-align: center;
+		color: white;
+	}
+
+
+	.creativity{
+		background-color: #f7f7f7;
+		padding-bottom: 60px;
+
+		.col-6{
+			padding: 0;
+
+			// .links {
+			// 	p,h3 {
+			// 		text-align: center;
+
+			// 	}
+
+			// }
+		}
+		.newsTitle{
+			background-color: #292929;
+		}
+
+		button{
+			position: absolute;
+
+			bottom: -50px;
+		}
+
+		img {
+			width:auto;
+			height: auto;
+		}
+
+		
+	}
+
+
+	.latestNews{
+		background-color: #f7f7f7;
+
+		.latestNewsCover{
+			@include background('../imgs/cover.jpg');
+			background-position:center;
+			text-align: center;
+			color: white;
+
+		}
+	}
+
+
+	.col-10 {
+		.oneNews{
+			border: 1px solid lightgray;
+			box-shadow: 2px 2px 3px lightgrey;
+			transition: all .3s ease-out;
+
+	
+			.col-9{
+				text-align: right;
+			}
+	
+		}
+
+		.oneNews:hover{
+			box-shadow: 2px 5px 17px lightgrey;
+			cursor: pointer;
+		}
+	
+	}	
+
+	.event{
+		.col-3{
+			img{
+				width: 70px;
+				height: 70px;
+			}
+		}
+	}
+
+
+.listOfNews{
+	h5{
+		color: $primaryColor;
+	}
+}
+	
+	

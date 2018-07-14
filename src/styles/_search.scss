@@ -1,0 +1,64 @@
+.search{
+	@include background('../imgs/cover1.jpg');
+	background-position:center;
+
+	.advancedSearch{
+		display: none;
+	}
+
+	
+        .secondary{
+            background-color: white;
+            border: none;
+        }
+    
+
+    .secondary:hover{
+        background-color: $primaryColor;
+        color: white;
+        transition:all .3s ease-in-out;
+    }
+
+
+
+	h2 {
+		color: lightgray;
+	}
+
+	hr{
+		margin-right: 0;
+	}
+
+	h5{
+		color: darkgray;
+	}
+
+	label {
+		color: white
+
+	}
+
+
+	.input-group{
+		font-size: 0;
+		[type=search], button{
+			height: 60px;
+			font-size: 16px;
+		}
+		
+		[type=search]{
+			border-radius: 5px;
+			border:0px;
+		}
+
+	}
+
+	.advancedSearch{
+		label{
+			color: white;
+		}
+
+	}
+	
+}
+	

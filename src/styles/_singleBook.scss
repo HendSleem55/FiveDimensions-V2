@@ -1,0 +1,39 @@
+.singleBook{
+
+    .book{
+        @include background('../imgs/8.png');
+        height: 540px;
+
+    }
+
+    .toggleButton{
+        color:$links;
+
+    }
+
+
+    .toggleButton:hover{
+        cursor: pointer;
+        color: $primaryColor;
+    }
+}
+
+.comments{
+    hr {
+        margin-right: 0;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    border-bottom: 1px solid #f7f7f7;
+}
+
+.similarBook {
+    h6 {
+    background-color: $primaryColor;
+    color:white;
+    }
+}

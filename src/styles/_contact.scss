@@ -1,0 +1,16 @@
+.contact{
+	@extend %center ;
+	background-color:$background;
+	p{
+		background-color:$color;
+		display:inline-block;
+	}
+	button {
+		margin:2px
+	}
+
+
+	span {
+		color:$primaryColor ;
+	}
+}

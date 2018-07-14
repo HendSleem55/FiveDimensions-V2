@@ -1,0 +1,12 @@
+.Download {
+
+	@include background('../imgs/downloads-bg.jpg');
+	background-position:center;
+	background-attachment:fixed;
+	@extend %center ;
+	color:$secondaryColor;
+
+	p {
+		color:$color
+	}
+}

@@ -1,0 +1,404 @@
+body {
+  padding: 0;
+  margin: 0; }
+
+button.secondary {
+  background-color: transparent;
+  border: 1px solid #C0151B;
+  padding: 10px 15px;
+  color: #C0151B;
+  border-radius: 5px;
+  transition: all .3s ease-in-out;
+  border-radius: 5px; }
+
+.secondary:hover {
+  background-color: #C0151B;
+  border: 1px solid #C0151B;
+  color: white; }
+
+button.primary {
+  background-color: #C0151B;
+  border: 1px solid #C0151B;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px; }
+
+button {
+  cursor: pointer; }
+
+h2 {
+  margin: 0; }
+
+hr {
+  width: 40px;
+  margin: 0 auto;
+  height: 2px;
+  background-color: #C0151B;
+  transition: all .3s ease-in-out; }
+
+section:hover hr {
+  width: 100px; }
+
+a {
+  color: #0480b9; }
+
+a:hover {
+  color: #C0151B; }
+
+body {
+  direction: rtl; }
+
+.Download, .contact, .Details {
+  display: flex;
+  color: #f7f7f7;
+  padding: 80px 0;
+  box-sizing: border-box;
+  align-items: center;
+  width: 100%; }
+  .Download section, .contact section, .Details section {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center; }
+
+.primarycolor {
+  color: #C0151B; }
+
+.OverlayParent {
+  position: relative; }
+  .OverlayParent img {
+    width: 100%;
+    box-shadow: 2px 2px 3px gray; }
+  .OverlayParent .overlay {
+    position: absolute;
+    width: 100%;
+    height: 0%;
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    transition: all .3s ease-in-out; }
+    .OverlayParent .overlay button {
+      display: none; }
+  .OverlayParent:hover .overlay {
+    height: 100%; }
+    .OverlayParent:hover .overlay button {
+      display: inline; }
+
+.page-link:hover {
+  color: #C0151B; }
+
+.page-link.active {
+  background-color: #C0151B;
+  color: white; }
+
+td {
+  padding-top: 15px !important;
+  padding-bottom: 15px !important; }
+
+#fixed, .fixed2 {
+  text-align: right; }
+  #fixed img, .fixed2 img {
+    width: auto !important;
+    height: auto !important; }
+
+.carousel-indicators li {
+  background-color: black; }
+
+.carousel-indicators li.active {
+  background-color: #C0151B; }
+
+.carousel-indicators {
+  bottom: -50px; }
+
+.col-6 {
+  padding: 10px;
+  box-shadow: 0px 0px 0px 0px;
+  transition: all .3s ease-in-out; }
+  .col-6 .bookDetail {
+    border: 1px solid lightgrey;
+    padding: 10px 20px;
+    transition: all .3s ease-in-out; }
+  .col-6 img {
+    height: 250px; }
+
+.col-6:hover .bookDetail {
+  border: 0;
+  box-shadow: 0px 0px 10px 1px gray; }
+
+p, h5, h6 {
+  text-align: right; }
+
+p.bookType {
+  color: gray; }
+
+header .navbar .active {
+  color: #C0151B !important; }
+
+header .navbar img {
+  max-width: 50px;
+  max-height: 50px; }
+
+header .navbar button {
+  border-radius: 2px; }
+
+header .navbar a {
+  color: #6E6E6E !important;
+  text-align: right; }
+
+.search {
+  background-image: url("../imgs/cover1.jpg");
+  background-size: cover;
+  background-position: center; }
+  .search .advancedSearch {
+    display: none; }
+  .search .secondary {
+    background-color: white;
+    border: none; }
+  .search .secondary:hover {
+    background-color: #C0151B;
+    color: white;
+    transition: all .3s ease-in-out; }
+  .search h2 {
+    color: lightgray; }
+  .search hr {
+    margin-right: 0; }
+  .search h5 {
+    color: darkgray; }
+  .search label {
+    color: white; }
+  .search .input-group {
+    font-size: 0; }
+    .search .input-group [type=search], .search .input-group button {
+      height: 60px;
+      font-size: 16px; }
+    .search .input-group [type=search] {
+      border-radius: 5px;
+      border: 0px; }
+  .search .advancedSearch label {
+    color: white; }
+
+.Download {
+  background-image: url("../imgs/downloads-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #F7f7f7; }
+  .Download p {
+    color: #A0A0A0; }
+
+.contact {
+  background-color: #000; }
+  .contact p {
+    background-color: #A0A0A0;
+    display: inline-block; }
+  .contact button {
+    margin: 2px; }
+  .contact span {
+    color: #C0151B; }
+
+.adv {
+  background-image: url("../imgs/adv.jpg");
+  background-size: cover;
+  height: 240px;
+  background-position: center; }
+  .adv h1 {
+    color: white; }
+
+.store h5, .store h6, .store p {
+  text-align: right; }
+
+.Details {
+  background-color: #F7f7f7;
+  color: #A0A0A0; }
+
+.books, .offers {
+  background-color: white; }
+  .books h6, .offers h6 {
+    background-color: #C0151B;
+    color: white; }
+  .books h5, .books p, .books h6, .offers h5, .offers p, .offers h6 {
+    text-align: right; }
+
+.icons {
+  width: 100%;
+  background-color: #C0151B; }
+  .icons svg {
+    color: white;
+    font-size: 1.3em !important; }
+  .icons .counter {
+    color: white;
+    font-weight: bold; }
+
+.carousel-item .card, .event section {
+  background-color: #f7f7f7; }
+
+.event:hover {
+  cursor: pointer; }
+
+.event p {
+  margin-bottom: 0; }
+
+.newsTitle, .eventsTitle {
+  background-color: #C0151B;
+  color: white; }
+
+.buyBook {
+  background-image: url("../imgs/unsplash2.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white; }
+
+.creativity {
+  background-color: #f7f7f7;
+  padding-bottom: 60px; }
+  .creativity .col-6 {
+    padding: 0; }
+  .creativity .newsTitle {
+    background-color: #292929; }
+  .creativity button {
+    position: absolute;
+    bottom: -50px; }
+  .creativity img {
+    width: auto;
+    height: auto; }
+
+.latestNews {
+  background-color: #f7f7f7; }
+  .latestNews .latestNewsCover {
+    background-image: url("../imgs/cover.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white; }
+
+.col-10 .oneNews {
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px 3px lightgrey;
+  transition: all .3s ease-out; }
+  .col-10 .oneNews .col-9 {
+    text-align: right; }
+
+.col-10 .oneNews:hover {
+  box-shadow: 2px 5px 17px lightgrey;
+  cursor: pointer; }
+
+.event .col-3 img {
+  width: 70px;
+  height: 70px; }
+
+.listOfNews h5 {
+  color: #C0151B; }
+
+.singleBook .book {
+  background-image: url("../imgs/8.png");
+  background-size: cover;
+  height: 540px; }
+
+.singleBook .toggleButton {
+  color: #0480b9; }
+
+.singleBook .toggleButton:hover {
+  cursor: pointer;
+  color: #C0151B; }
+
+.comments {
+  border-bottom: 1px solid #f7f7f7; }
+  .comments hr {
+    margin-right: 0; }
+  .comments img {
+    width: 100px;
+    height: 100px; }
+
+.similarBook h6 {
+  background-color: #C0151B;
+  color: white; }
+
+footer {
+  background: #000;
+  color: #F7f7f7; }
+  footer p {
+    padding: 10px 0;
+    margin: 0; }
+  footer a, footer p {
+    color: lightgray; }
+  footer .fa-facebook-square {
+    color: #3B5998; }
+  footer .fa-twitter-square {
+    color: #1DA1F2; }
+
+#contact .contactUs form {
+  background-color: rgba(0, 0, 0, 0.6);
+  box-shadow: 0px 0px 5px 1px gray;
+  border-radius: 5px; }
+  #contact .contactUs form label {
+    color: white; }
+
+#contact .contactUs svg {
+  color: #2b2b2b; }
+
+#contact .callUs p, #contact .callUs a {
+  color: #4f4f4f; }
+
+#contact .callUs a:hover {
+  color: #C0151B; }
+
+.activites a {
+  color: #C0151B; }
+
+.activites img {
+  width: 150px;
+  height: 150px; }
+
+.activites th {
+  text-align: center; }
+
+.activites td {
+  vertical-align: middle;
+  text-align: center; }
+
+.activites .activity {
+  background-color: #f7f7f7;
+  box-shadow: 2px 2px 3px gray;
+  border-radius: 5px; }
+  .activites .activity p, .activites .activity h6 {
+    color: #4f4f4f;
+    text-align: center; }
+    .activites .activity p svg, .activites .activity h6 svg {
+      color: #2b2b2b; }
+    .activites .activity p:hover svg, .activites .activity h6:hover svg {
+      color: #C0151B; }
+
+#index .newArrival, #index .mostpopular {
+  padding-bottom: 100px;
+  padding-top: 50px;
+  background-color: #f7f7f7; }
+  #index .newArrival h6, #index .mostpopular h6 {
+    background-color: #C0151B;
+    color: white; }
+
+#index .mostpopular {
+  background-color: white; }
+
+#index .offers .discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #C0151B;
+  color: white;
+  padding: 5px 20px;
+  border-radius: 0px 0px 0px 7px; }
+
+#index .store img {
+  height: 225px; }
+
+#index .store .bookPrice {
+  color: white;
+  color: #C0151B;
+  font-weight: bold; }
+
+.SingleNewsDetails {
+  border-bottom: 1px solid gray;
+  width: 100%;
+  background-color: #f7f7f7; }
+  .SingleNewsDetails img {
+    width: 100%;
+    height: 400px; }

@@ -1,0 +1,51 @@
+#index{
+
+    
+    .newArrival , .mostpopular{
+        padding-bottom: 100px;
+        padding-top: 50px;
+        background-color: #f7f7f7;
+
+        h6 {
+            background-color: $primaryColor;
+            color: white;
+        }
+
+    
+    }
+    .mostpopular{
+        background-color: white;
+    }
+
+    .offers{
+
+
+        .discount{
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: $primaryColor;
+            color: white;
+            padding: 5px 20px;
+            border-radius: 0px 0px 0px 7px;
+        }
+
+
+    }
+    
+    .store {
+        img {
+            height: 225px;
+        }
+
+
+        .bookPrice{
+            color: white;
+            color: $primaryColor;
+            font-weight: bold;
+        }
+    }
+
+
+
+}

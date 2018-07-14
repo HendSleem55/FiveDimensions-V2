@@ -1,0 +1,21 @@
+.adv{
+    @include background('../imgs/adv.jpg');
+    height: 240px;
+    background-position:center;
+
+    h1 {
+        color: white;
+    }
+
+
+
+}
+
+
+.store {
+
+     h5 , h6 , p {
+        text-align: right;
+    }
+
+}

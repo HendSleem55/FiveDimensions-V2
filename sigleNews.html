@@ -1,0 +1,384 @@
+<html>
+	<head>
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	
+
+
+
+		<link rel="stylesheet" type="text/css" href="dist/css/basic.css">
+	</head>
+	<body>
+        <section class="icons py-2">
+            <div class="container-fluid py-1">
+                <i class="fas fa-shopping-cart fa-1x"></i>
+                <a href=""><i class="fab fa-facebook-f mx-2"></i></a> 
+                <a href=""> <i class="fab fa-twitter"></i></a>
+            </div>
+        </section>
+		<header>
+			<nav class="navbar navbar-expand-lg navbar-light">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<a class="navbar-brand" href="#">
+					<img src="dist/imgs/logo.png" alt="">
+				</a>
+				
+				<div class="collapse navbar-collapse justify-content-between" id="navbarTogglerDemo03">
+					<ul class="navbar-nav  mt-lg-0">
+						<li class="nav-item active">
+							<a class="nav-link " href="index.html">الرئيسية</a>
+						</li>							
+						
+						<li class="nav-item active">
+							<a class="nav-link" href="#">الفاعليات</a>
+						</li>							
+							
+							
+						<li class="nav-item active">
+							<a class="nav-link" href="bookRent.html">بوك رنت </a>
+						</li>							
+						
+						<li class="nav-item active">
+							<a class="nav-link active" href="News.html">بتانة نيوز</a>
+						</li>							
+						
+						<li class="nav-item active">
+							<a class="nav-link" href="#">نادي القراء المحترفين</a>
+						</li>							
+						
+						<li class="nav-item active">
+							<a class="nav-link" href="#">اتصل بنا</a>
+						</li>				
+					</ul>
+					<form class="form-inline my-2 my-lg-0">
+							<button class="secondary">تسجيل دخول</button>
+							<button class="primary mr-2">انشاء حساب</button>
+					</form>
+				</div>
+			</nav>
+		</header>
+
+
+		<main>
+
+            <section class="search py-5 ">
+                <div class="container">	
+                    <form class="row justify-content-center">
+                        <div class="col-8  mb-3 input-group">
+                            <input class="form-control py-3" type="search" placeholder=" يمكنك البحث عن اسم كتاب او مؤلف " aria-label="Search">
+                            <div class="input-group-btn">
+                                    <button class="secondary m-0">بحث</button>
+                                    <button class="primary m-0" class="showsearch">بحث متقدم</button>
+
+                            </div>
+                        </div>
+
+                        <div class="col-8 advancedSearch">
+                            <div class="row">
+                                <div class="col-6 text-right">
+                                    <input type="radio" name="" id="">
+                                    <label for="">اسم المؤلف</label>
+                                </div>
+                                
+                                <div class="col-6 text-right">
+                                    <input type="radio" name="" id=""> 
+                                    <label for="">عنوان الكتاب</label>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-4 text-right">
+                                    <select name="" class="form-control" >
+                                        <option value="">البحث بالنوع</option>
+                                        <option value="">كتاب</option>
+                                        <option value="">مسرحية</option>
+                                        <option value="">رواية</option>
+                                        <option value="">مجلة</option>
+                                    </select>
+                                </div> 
+                                <div class="col-4 text-right">
+                                        <select name="" class="form-control" >
+                                            <option value="">البحث بالناشر </option>
+                                            <option value="">كتاب</option>
+                                            <option value="">مسرحية</option>
+                                            <option value="">رواية</option>
+                                            <option value="">مجلة</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-4 text-right">
+                                        <select name="" class="form-control" >
+                                            <option value="">البحث بالصنف</option>
+                                            <option value="">كتاب</option>
+                                            <option value="">مسرحية</option>
+                                            <option value="">رواية</option>
+                                            <option value="">مجلة</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+			
+            <section class="container-fluid mb-5 py-5 news">
+                <div class="row">
+                    <div class="col-lg-8 col-10 newsSlider">
+                        <div class="newsTitle py-3 mb-4 text-center font-weight-bold" id="news">اخر الاخبار </div>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class=" col-sm-6 col-10 text-center topCard">
+                                                    <div class="card">
+                                                        <img class="card-img-top" src="dist/imgs/adv.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                            <h5 class="mb-3" class="card-title mb-3">الكاتبة السودانية اسراء كاشف تتحدث عن تجربتها في ورشة الزيتون</h5 class="mb-3">
+                                                            <p class="card-text">
+                                                                    ورشة الزيتون تستضيف يوم الاثنين 2يوليوالقادم الكاتبة والروائية سوزان كاشف، والمقيمة فى المملكة المتحدة، حيث تتحدث عن تجربتها ومسيرتها الأدبية القصيرة،
+
+                                                            </p>
+                                                            <button class="secondary">قراءة الخبر كامل</button>
+
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                                <div class="col-sm-6 co-12 text-center">
+                                                    <div class="card">
+                                                        <img class="card-img-top" src="dist/imgs/adv.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                                <h5 class="mb-3" class="card-title">الكاتبة السودانية اسراء كاشف تتحدث عن تجربتها في ورشة الزيتون</h5 class="mb-3">
+                                                                <p class="card-text">
+                                                                        ورشة الزيتون تستضيف يوم الاثنين 2يوليوالقادم الكاتبة والروائية سوزان كاشف، والمقيمة فى المملكة المتحدة، حيث تتحدث عن تجربتها ومسيرتها الأدبية القصيرة،
+                                                                </p> 
+                                                                <button class="secondary">قراءة الخبر كامل</button>
+                                                           
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                
+                                    <div class="carousel-item ">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-sm-6 col-10 text-center topCard">
+                                                    <div class="card">
+                                                        <img class="card-img-top" src="dist/imgs/adv.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                                <h5 class="mb-3" class="card-title mb-3">الكاتبة السودانية اسراء كاشف تتحدث عن تجربتها في ورشة الزيتون</h5 class="mb-3">
+                                                                <p class="card-text">
+                                                                        ورشة الزيتون تستضيف يوم الاثنين 2يوليوالقادم الكاتبة والروائية سوزان كاشف، والمقيمة فى المملكة المتحدة، حيث تتحدث عن تجربتها ومسيرتها الأدبية القصيرة،
+    
+                                                                </p>
+                                                                <button class="secondary">قراءة الخبر كامل</button>
+
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                                <div class="col-10 col-sm-6 text-center">
+                                                    <div class="card">
+                                                        <img class="card-img-top" src="dist/imgs/adv.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                                <h5 class="mb-3" class="card-title mb-3">الكاتبة السودانية اسراء كاشف تتحدث عن تجربتها في ورشة الزيتون</h5 class="mb-3">
+                                                                <p class="card-text">
+                                                                        ورشة الزيتون تستضيف يوم الاثنين 2يوليوالقادم الكاتبة والروائية سوزان كاشف، والمقيمة فى المملكة المتحدة، حيث تتحدث عن تجربتها ومسيرتها الأدبية القصيرة،
+    
+                                                                </p>
+                                                                <button class="secondary">قراءة الخبر كامل</button>
+
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item ">
+                                        <div class="container">
+                                            <div class="row ">
+                                                <div class="col-sm-6 col-10 text-center topCard">
+                                                    <div class="card">
+                                                        <img class="card-img-top" src="dist/imgs/adv.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                                <h5 class="mb-3" class="card-title mb-3">الكاتبة السودانية اسراء كاشف تتحدث عن تجربتها في ورشة الزيتون</h5 class="mb-3">
+                                                                <p class="card-text">
+                                                                        ورشة الزيتون تستضيف يوم الاثنين 2يوليوالقادم الكاتبة والروائية سوزان كاشف، والمقيمة فى المملكة المتحدة، حيث تتحدث عن تجربتها ومسيرتها الأدبية القصيرة،
+    
+                                                                </p>
+                                                                <button class="secondary">قراءة الخبر كامل</button>
+
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                                <div class="col-sm-6 col-10 text-center">
+                                                    <div class="card">
+                                                        <img class="card-img-top" src="dist/imgs/adv.jpg" alt="Card image cap">
+                                                        <div class="card-body">
+                                                                <h5 class="mb-3" class="card-title mb-3">الكاتبة السودانية اسراء كاشف تتحدث عن تجربتها في ورشة الزيتون</h5 class="mb-3">
+                                                                <p class="card-text">
+                                                                        ورشة الزيتون تستضيف يوم الاثنين 2يوليوالقادم الكاتبة والروائية سوزان كاشف، والمقيمة فى المملكة المتحدة، حيث تتحدث عن تجربتها ومسيرتها الأدبية القصيرة،
+    
+                                                                </p>
+                                                                <button class="secondary">قراءة الخبر كامل</button>
+                                                        </div>
+                                                    </div>
+                                                </div> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                            
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>
+                
+                    <div class="col-10 col-lg-4">
+                        <div class="eventsTitle py-3 mb-4 text-center font-weight-bold">سينما</div>
+                        <div class="row">
+                            <div class="event px-3 pb-2 col-lg-12 col-md-6">
+                                <section  class= "p-3">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="dist/imgs/cover1.jpg" class="img-fluid" alt="">
+                                        </div>
+
+                                        <div class="col-9">
+                                            <p class="text-right">د كتورة إيناس عبد الدايم : كارما في موعده  ولا إبداع بدون حرية .. <span> المزيد </span>
+                                                </p>
+                                        </div>
+                                    </div>
+
+                                </section>
+                    
+                            </div>                    
+                                    
+                            <div class="event px-3 py-2 col-lg-12 col-md-6">
+                                <section  class="p-3">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="dist/imgs/cover1.jpg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="text-right">مجلة الفيلم بالجزويت تخصص عددها عن السينما الرومانية وجمالياتها 
+                                                    <span> المزيد </span>
+                                                </p>
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>                    
+            
+               
+    
+                            <div class="event px-3 py-2 col-lg-12 col-md-6">
+                                <section class="p-3">
+                                    <div class="row">
+                                        <div class="col-3">
+                                            <img src="dist/imgs/cover1.jpg" class="img-fluid" alt="">
+                                        </div>
+                                        <div class="col-9">
+                                            <p class="text-right">"جايين نهرج " فى الشرابية والسلام  تحت أشراف الأمريكى "رونلن فورمان 
+                                                <span> المزيد </span>
+
+                                            </p>
+                                        </div>
+                                    </div>
+        
+                                </section>
+                            </div>
+                            
+                            <div class="col-10 text-center py-3" >
+                                <button class="secondary">رؤية المزيد </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="SingleNewsDetails py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <h4 class="text-right primaryColor mb-5" >بتـــانة نيوز - « من يتذكر هؤلاء » شعبان يوسف يكتب عن :محمد الخضرى عبد الحميد عميد أدباء الأقاليم</h4>
+                            <div class="row mb-5 justify-content-center">
+                                <div class="col-10"> 
+                                    <div class="row">
+                                        <div class="col-12 mb-2">
+                                            <img src="dist/imgs/cover.jpg" alt="">
+                                        </div>
+                                        <div class="col-12 d-flex justify-content-between">
+                                                <p class="text-right mb-3"><i class="fas fa-pen-alt"></i><span><a href="">محمد شعبان</a></span></p>
+                                                <p class="text-right mb-2"> <i class="fas fa-calendar-alt"></i>  20/7/2018</p>
+                                                <p class="text-right mb-2">210 <i class="fas fa-eye"></i> </p>
+                                                <p class="text-right mb-2">عدد المشاركات : 20</p>
+                                                <p class="text-right">مشاركة الخبر  </p>
+                                            </div>
+                                    </div>
+                                </div>
+                               
+                            </div> 
+                        </div>
+
+                        <div class="col-10">
+                            <p class="text-right">
+                                                
+                                لا أعرف من الذى اخترع مصطلح أدباء الأقاليم، وكرّس كل أسباب العزلة والبكاء والتفرقة المفتعلة، والتى جعلت بالفعل ما يسمىّ بـ "أدباء الأقاليم"، وأدباء العاصمة، وجدير بالذكر أن كتّابا ومبدعين كثيرين جددوا وقادوا الحياة الثقافية، كانوا يرسلون إبداعاتهم من الأقاليم لمجلات العاصمة، وبعدما انتقلوا إلى القاهرة، أصبحوا نجوما فى سماء الحياة الثقافية، وتصدروا المجلات والصحف والمؤتمرات والإذاعات وشاشات التلفزيون، أما الذين اعتصموا بأقاليمهم وقراهم، فظلّوا بعيدا عن الذاكرة والصحف والجوائز والمناصب والقيادات، رغم أنهم ظلّوا يمدون الأدب فى مصر بكتابات لا تقل عن أقرانهم فى المدينة، وهناك أمثلة قوية تظل شامخة فى حديقة الأدب، مثل الراحلين محمد الراوى وقاسم مسعد عليوة وعبد العليم القبانى ومحمد يوسف وزكى عمر وربيع الصبروت وغيرهم، ورحمهم الله جميعا، وهناك كثيرون أطال الله فى أعمارهم مثل سمير الفيل وعيد صالح وفؤاد حجازى وحمدى البطران وفتحى عبد السميع وأشرف البولاقى وعزت الطيرى وحسين القباحى وجار النبى الحلو وسيد إمام وصلاح اللقانى ومصطفى نصر وسعيد سالم وغيرهم وغيرهم متعّهم الله بالصحة ومدّ فى أعمارهم، ليمدونا بالأدب والإبداع الجيد والثرى والمتنوع.
+    
+                                ولا أعتقد أن أحدا بحث فى أسباب بزوغ هذا المصطلح، والتكريس له، والتعامل معه باعتباره حقيقة واقعية، ومشكلة فعلية، وربما تكون الأجهزة الثقافية العملاقة، هى التى ساهمت فى ذلك التفريق، وتلك المسافة الشاسعة بين مكاسب أدباء العاصمة، وحرمان الأدباء الذين يقطنون فى الأقاليم من تلك المكاسب، وهذا يعود لسياسة تكريس المركزية بشكل متضخم وكريه، فكل المؤسسات الثقافية الكبرى تتحرك بقوة فى المركز، وكل المؤسسات التابعة لها فى الأقاليم، مجرد فروع باهتة لتلك المؤسسات، ولا تتحرك إلا وفقا لأوامر وتعليمات وفرمانات تصدر عن القاهرة.
+    
+                                ولا أريد أن أستطرد فى عرض وسرد وقائع هذه المشكلة العميقة، والتى تحتاج بالفعل إلى درس أعمق من هذه السطور التى تريد أن تجلو بعض الغبار عن شخصية أدبية كبيرة، وهو الأديب والقاص محمد الخضرى عبد الحميد، والذى كان يرسل كل قصصه من المنيا، ومن مركز ملوى بالتحديد، ولن يجد القارئ الكريم معلومات كافية له على شبكة الإنترنت، وكذلك لن يجد له صورة على الإطلاق.
+    
+                                وكانت رسائل الخضرى عبد الحميد وبعض قصصه تنشر بجوار رسائل وقصص صبرى محمد موسى "صبرى موسى"، والشاعر فتحى سعيد، وفيما بعد بجوار خيرى أحمد شلبى "خيرى شلبى"، وكانت مجلتا "قصص للجميع"، و "النداء" تنشران له تباعا، قصصا قصيرة جدا، وترد على رسائله، ولم يتوقف عن إرسال قصصه لغالبية مجلات وصحف القاهرة، وفى 3 مايو 1954 حظى بنشر قصة كاملة وناضجة، عنوانها "سور الأزبكية" فى مجلة "قصتى"، مثله مثل صبرى موسى وأمين يوسف غراب وابراهيم حمادة الذين نشروا فى العدد نفسه وغيرهم، وكذلك نشر فى باب "من أرشيف المحرر" بعضا من حكايات خفيفة، وقصص طريفة.
+    
+                                ونتوقف عند قصة "سور الأزبكية"، وهى القصة التى تعتبر من قصصه الأولى التى صافح فيها قراءه، وهى تتحدث عن "سور الأزبكية" المعروف بأنه يبيع الكتب بقروش قليلة، وفى القصة يذهب بطل القصة إلى ذلك السور، ويقلّب فى الكتب، حتى يشترى كتابا بـ"أربعة قروش" كاملة، وعندما يعود إلى البيت، يكتشف أن لغة الكتاب ليست عربية، فماذا يفعل به، واكتشف كذلك أن الكاتب يدعى "ميكافيللى"، فحاول أن يستثمر ذلك الأمر، وقام بتأليف قصة قصيرة، وزعم أنها لـ"ميكافيللى"، وأرسلها إلى إحدى المجلات التى تنشر له، ولكن رئيس التحرير استدعاه، وأخبره بأن "ميكافيللى" لم يكتب قصصا على الإطلاق، ولم يكتب إلا كتابا واحدا، وهكذا كشف رئيس التحرير كذب الكاتب الشاب. 
+    
+                                فكرة القصة فى حد ذاتها ليست ذات أهمية قصوى، وربما كان الكاتب الشاب يلّمح بها إلى هؤلاء الذين ينشرون قصصا زاعمين أنها مترجمة، وعندما يبحث المدققون فى أصول تلك القصص، لا يجدون لها أثرا، ومن ثم ففكرة القصة ذات هدف واضح، أما الأهم من فكرة القصة، هو التحليل النفسى الذى برع فيه عبد الحميد، عندما راح يحلل سلوك الكاتب الشاب، منذ ذهابه إلى سور الأزبكية، ثم اكتشافه قصة الكتاب ولغته، ومحاولته عدم تضييع الفرصة، حتى تأليف القصة وإرسالها ومواجهة رئيس التحرير، وفى النهاية يعلن بأنه كره "سور الأزبكية" تماما، ولن يذهب إليه مطلقا. 
+    
+                                وكما أسلفنا كانت هذه القصة، هى القصة التى صافح فيها جمهوره بشكل واسع لأول مرة، وكانت المرّة الثانية فى ابريل عام 1956، ولكن فى مجلة أكثر مقروءية واتساعا وتخصصا، هى مجلة "الرسالة الجديدة"، والتى كان يرأس تحريرها يوسف السباعى، ويكتب فيها توفيق الحكيم ويحيي حقى ويوسف الشارونى ونجيب محفوظ وآخرون، وفى هذا العدد نشرت له المجلة تحت باب عنوانه "قصة للمناقشة" قصة عنوانها "مدد يارفاعى . .  مدد"، وأزعم أن هذه القصة من عيون قصص ذلك الزمان، ولا تقل أهمية عن أى قصةكتبها يوسف ادريس ويوسف الشارونى فى ذلك الزمان، وكذلك طريقة البناء والجماليات، فالقصة تعتمد على الأصوات بشكل واسع، فيستهلها بصوت الجزار عبد الكريم، الذى يصرخ بشراسة: "عليا الطلاق أنا خسران فى البيعة دى"، وعندما يتساءل الناس عن الأمر، يشرح لهم بعد حلفان الطلاق مرة أخرى عدة مرات، بأن "المرة الفقرية" أم ظرظور، ضحكت عليه، وباعت له عنزة بسعر كبير، ولأن أم ظرظور وأهل الحىّ يخافون من ذلك الجزار، رضخت له، وحصلت على ثمن العنزة ناقصا "30 قرشا"، ولكن الجميع يعرف أن "عبد الكريم" ضلالى ومفترى، ولكن أحدا لا يستطيع أن يقول ذلك جهرا. 
+    
+                                فى الليلة ذاتها يأتى صديق عبد الكريم، والذى يدعى "شاهين"، ليقنعه بأن يترك الجزارة ومتاعبها، ويتجه إلى الانضمام إلى الطريقة الرفاعية، وهنا تأتى براعة الخضرى عبد الحميد"، ومعرفته العميقة بسلوك الرفاعيين، فيقتبس بعضا من أناشيد الذكر، ولا يشعر القارئ بأن تلك الأناشيد مفتعلة فى القصة، ويندمج عبد الكريم وشاهين فى الطريقة الرفاعية، وينقلب حالهما تماما، وكأنهما من أولياء الله الصالحين، بعد أن كانا لصين. 
+    
+                                وكان من الممكن- حسب القصة-  أن يستمر الرجلان فى ذلك الأمر، لولا أن حدث شئ مهيب، غيّر من مسار القرية وأبناء الطريقة الرفاعية والرجلين، إذ تم ضبط عبد الكريم وهو يسرق جاموسة، وبعد القبض عليه، وامتثاله أمام الضابط يعترف بأن "ابن" شيخ الطريقة، هو الذى يدير عمليات السرقة كاملة فى البلد كلها، ومن ثم ينتهى الجميع عن ممارسة تلك الأذكار التى تخفى خلفها ما تخفى، وهذا تلخيص يكاد أن يخلّ بجماليات القصة الممتعة، والتى تتوافرفيها عناصر وجماليات القصة الحديثة بإتقان. 
+    
+                                وبعد انتهاء القصة، كتب أحد أعمدة الفن فى ذلك الوقت رأيه فى القصة، وبدأ مناقشته بـ:"وما من شك فى أن القصة ، وأدب القصة، يحتفلان أطيب احتفال بانضمان محمد الخضرى عبد الحميد إلى زمرة كتّاب القصة، إنه بلا مراء كاتب فنان، يتميز ببصيرة (مصرية) صادقة الاحتفاظ بالنموذج المصرى، ولكن ماذا أخرج من هذه القصة الجميلة من دائرة (الصالح)، ووقف بها فى مدار (غير الصالح)"،  ودون الاستمرار فى سرد ما رآه الحجاوى، فهو يعترض على ربط الطريقة الرفاعية باللصوصية، وكأنه يصم كل أبناء الطريقة بالسرقة، وكان من الممكن أن يسلك طريقا أخرى، ليكشف عن لصوصية عبد الكريم وشاهين، دون أن يضمهما، وهنا نرى أن الحجاوى انتقد القصة من زاوية أيديولوجية، وفاته أن عبد الحميد يعنى بعضا من ذلك، وأن البعض لا يصم الكل، ولكن هذه القصة تعدّ علامة فى تاريخ القصة القصيرة دون أى مبالغة.
+    
+                                بعدها انطلق عبد الحميد يكتب فى مطبوعات أكثر اتساعا، ولم يكتف بكتابة القصة القصيرة فحسب، بل شارك فى الحياة البحثية والقصصية والثقافية بسلسلة مقالات كان ينشرها فى مجلة "الثقافة"، والتى كان يرأس تحريرها محمد فريد أبو حديد، وكانت المجلة تنشر أبحاثه ومقالاته النقدية فى الصدارة، ومن أهم ماكتب، اكتشافه لبعض القصص التى كان يكتبها عباس محمود العقاد، وأن روايته "سارة"، كان ينشرها على هيئة مقالات، وعندما نبهه أحدهم على أن مايكتبه لا ينتمى إلى فن المقال، ولكنه ينتمى إلى فن السرد، غيّر العقاد وجهته وبدأ يستكمل ماكتبه، حتى اكتملت الرواية ونشرها، وعاد الخضرى عبد الحميد إلى المطبوعات الأولى التى كان ينشر فيها العقاد سرديته الوحيدة "سارة"، ومافعله الخضرى ينم عن عقلية باحث أريب، وخاصة ماكتبه كذلك عن شاعر القطرين "خليل مطران".
+    
+                                فى العام 1965نشر مجموعته الأولى "لآخر رمق"، وصدرت عن الهيئة العامة للتأليف والنشر، والتى صارت فيما بعد الهيئة المصرية العامة للكتاب، ولا مجال هنا لقراءة نقدية للمجموعة، ولكنى أؤكد أن قصصها ساهمت بشكل جيد فى إثراء الحياة القصصية آنذاك، والتى بدأت تستقبل كتّابا من طراز جمال الغيطانى وابراهيم أصلان ومحمد البساطى وغيرهم، والأدهى من ذلك أن مجلة "المجلة" عندما أصدرت عددا خاصا عن "القصة القصيرة" فى أغسطس عام 1966، نشرت قصة لعبد الحميد عنوانها "صاحب الجلالة" ، وكتب عنها مقالا نقديا الكاتب محمود تيمور، والذى أثنى عليها قائلا :"..هذه القصة القصيرة نموذج واضح للطور الذى انتهى إليه حتى اليوم كاتبنا الأديب العصامى الريفى "محمد الخضرى عبد الحميد"، وقد عرفته منذ عهد، وقرأت له أوائل ماكتب ، وظللت أرقبه عن كثب ، وكنت أتوقع له أن يمعن فى السير، وأن يوغل فى الدرب ، وأن يجنى الأدب من جهاده ونتاجه ثمارا طيبات، وما زلت أرجو له إطراد التقدم، وأنتظر منه المزيد..".
+    
+                                بعد ذلك بدأت عملية الأقلمة المقيتة، وبعد أن نشر مجموعة مستقلة، ضنّت عليه أجهزة ومؤسسات المركز أن تنشر له عملا مستقلا، فنشرت له فى سلسلة "كتابات جديدة"، مع اثنين آخرين هما "الداخلى طه وبهاء السيد"، مجموعة عنوانها "السّفر فى الليل"، وفى نهاية المجموعة جاء تذييل يقول "المؤلفون : محمد الخضرى عبد الحميد ، الداخلى طه، بهاء السيد، من أدباء ملوى"!!!!، وكان ذلك عام 1970، وهذا ما لم يحدث إلا لكتّاب قلائل جدا من جيل الستينيات، ولكن هذا لم يفتّ فى عضد الخضرى عبد الحميد، فظل يرفد الحياة القصصية والأدبية بإبداعاته وكتاباته النقدية، وأصدرت له الهيئة المصرية العامة للكتاب - فيما بعد- مجموعة قصصية عام 1987، لتنقذ بعضا من تراثه المهدور وغير المنظور، حتى تأتى ظروف أفضل، لكى ينتبه أحد لإبداعه وإبداع غيره، بعدما تم بناء سور الصين العظيم، بين ميزات المركز، والخسائر التى يتكبدها  أخوتنا الكتّاب والأدباء الذين يعيشون فى الأقاليم.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+	    </main>
+
+	    <footer>
+	    	<p>copyRight © your wepsite 2018</p>
+		</footer>
+		<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+		<!-- <script src="owl/docs/assets/vendors/jquery.min.js"></script> -->
+		<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+		<!-- <script src="owl/dist/owl.carousel.js"></script> -->
+		<script type="text/javascript" src="script.js"></script>
+
+
+	</body>
+</html>

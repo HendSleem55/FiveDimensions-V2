@@ -1,0 +1,23 @@
+header {
+	.navbar{
+
+		.active{
+			color: $primaryColor !important;
+		}
+		img{
+			max-width: 50px;
+			max-height: 50px;
+		}
+
+
+		button{
+			border-radius: 2px;
+		}
+
+		a{
+			color: #6E6E6E !important;
+			text-align: right
+		}
+
+	}
+}
